@@ -356,9 +356,10 @@ SUPER TOP MENU
 #nav-menu2{
   margin: 0;
   padding: 0;
+  padding-top: 20px;
   float: left;
   list-style: none;
-  line-height: 20px;
+  line-height: 5px;
   position: relative;
   z-index: 10;
   -moz-transition: all 0.3s;
@@ -1652,12 +1653,11 @@ footer .credits {
 
 @media all and (min-width: 600px) {
   #cmn-video-demo3__container {
-   height: 100%;
+   height: auto;
   }
 
   #cmn-video-demo3__video {
-    width: 100%;
-	height: 100%;
+	height: auto;
   }
 
   #cmn-video-demo3__content {
@@ -1673,12 +1673,12 @@ footer .credits {
 }
 @media all and (min-width: 1024px) {
   #cmn-video-demo3__container {
-    height: 100%;
+    height: auto;
   }
 
   #cmn-video-demo3__video {
-    width: 100%;
-	height: 100%;
+
+	height: auto;
   }
 
   #cmn-video-demo3__content {
