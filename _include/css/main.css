@@ -358,7 +358,7 @@ SUPER TOP MENU
   padding: 0;
   float: left;
   list-style: none;
-  line-height: 70px;
+  line-height: 20px;
   position: relative;
   z-index: 10;
   -moz-transition: all 0.3s;
@@ -435,6 +435,12 @@ SUPER TOP MENU
     color:#55a491;
 	font-weight:bold;
 }
+
+.capa-cloud {
+	padding-top: 17%; 
+	width:60%;
+}
+
 @media only screen and (max-width: 1290px){
 	
 	#nav-menu2 > li {
@@ -455,15 +461,26 @@ SUPER TOP MENU
 	
 	#nav-menu2  {
 		margin-left:15%;
-
-}
+		height: 0px;
+	}
+	.capa-cloud {
+		opacity: 0.2;
+		padding-top: 30%; 
+	}
 }
 @media only screen and (max-width: 626px){
 	
 	#nav-menu2 {
 		visibility:hidden;
-
-}
+	}
+	#cmn-video-demo3__container {
+		visibility:hidden;
+	}
+	.capa-cloud {
+		padding-top: 50%; 
+		opacity: 1;
+		width: 80%
+	}
 }
 /* ==================================================
    Home Slider
@@ -1639,7 +1656,8 @@ footer .credits {
   }
 
   #cmn-video-demo3__video {
-    width: 100%;
+    /*width: 100%;*/
+	height: 100%;
   }
 
   #cmn-video-demo3__content {
@@ -1659,7 +1677,8 @@ footer .credits {
   }
 
   #cmn-video-demo3__video {
-    width: 100%;
+    /*width: 100%;*/
+	height: 100%;
   }
 
   #cmn-video-demo3__content {

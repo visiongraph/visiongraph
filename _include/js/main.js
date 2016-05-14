@@ -80,10 +80,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="back">'+'</div><div id="cmn-video-demo3__container">  <video autobuffer preload=”none” id="cmn-video-demo3__video" autoplay muted loop><source src="videos/demo.mp4#t=37,200" type="video/mp4"></video></div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="back"><img src="_include/img/cloudlogi.png" class="capa-cloud"></div><div id="cmn-video-demo3__container">  <video autobuffer preload=”none” id="cmn-video-demo3__video" autoplay muted loop><source src="videos/demo.mp4#t=37,200" type="video/mp4"></video></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content wow fadeInRightBig" style="margin-top:5%"> Redes Sociales</div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content wow fadeInRightBig" style="margin-top:5%">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
+											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
